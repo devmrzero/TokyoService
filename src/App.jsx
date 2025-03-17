@@ -82,7 +82,7 @@ function App() {
 
   const title = data?.username
     ? `${data.username} Sub Info`
-    : `${import.meta.env.VITE_BRAND_NAME || "Ourenus"} Sub Info`;
+    : `${import.meta.env.VITE_BRAND_NAME || "VPN"} Sub Info`;
 
   const isOffSections = useMemo(() => {
     try {
@@ -120,7 +120,7 @@ function App() {
         <title>{title}</title>
         <meta
           name="description"
-          content="Powered by https://github.com/MatinDehghanian"
+          content="Powered by https://github.com/DevMrZeRo"
         />
       </Helmet>
       <Grid container justifyContent={"center"}>
